@@ -10,13 +10,7 @@ docker build . -t recsys_pg
 ```
 docker run --rm -it \
   --ipc=host \
-  --net=host \
+  -p 8888:8888 \
   -v "$(pwd)":/home \
-  recsys_pg \
-  bash
-```
-
-3. In the docker run jupyter lab
-```
-jupyter lab --ip 0.0.0.0
+  recsys_pg
 ```
