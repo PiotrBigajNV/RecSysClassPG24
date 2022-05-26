@@ -1,3 +1,9 @@
 pandas>=0.24.2
 tqdm
 numpy
+jupyterlab
+ipywidgets
+torch
+torchvision
+torchaudio
+matplotlib
