@@ -1,4 +1,4 @@
-### This is Reamde for Introduction to RecSys class for Politechnika Gliwicka Y22
+### This is Reamde for Introduction to RecSys class for Politechnika Gliwicka Y23
 
 Instructions:
 1. Build docker on your host system:
