@@ -13,6 +13,4 @@ WORKDIR /home
 
 EXPOSE 8888
 
-RUN jupyter nbextension enable --py widgetsnbextension
-
 ENTRYPOINT [ "jupyter", "lab", "--ip", "0.0.0.0", "--allow-root" ]
