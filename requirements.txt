@@ -7,4 +7,4 @@ torch
 torchvision
 torchaudio
 matplotlib
-sklearn
+sckikit-learn
